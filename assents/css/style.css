@@ -1,4 +1,3 @@
-
 .img{
     justify-content: center;
     align-items: center;
@@ -44,4 +43,17 @@
 .textfild{
  
 
+}
+
+#btConcluir{
+margin-top: 30px;
+margin-left: 50px;
+}
+
+#btSim{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#btNao{
+    margin-left: 10px;
 }
