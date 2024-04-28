@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzaria</title>
+
+    <link rel="stylesheet" href="./assents/css/style.css">
+    
+</head>
+
+<body>
+    <div class="img">
+        <img src="./assents/img/Screenshot_101.png" id="imagem">
+    </div>
+    
+    <div class="img">
+        
+        <div class="textfild">
+            
+            <label>Valor total da conta: </label><br>
+            <input id="total" class="entrada" type="text" placeholder="100 R$"><br>
+            <label>Incluir da taxa de servirço: </label><br>
+            <select id="entrada" >
+                <option value="sim">sim</option>
+                <option value="nao">não</option>
+            </select><br>
+            <label>Quantidade de pessoas </label><br>
+            <input id="qPessoas" class="entrada" type="text" placeholder="quantidade de pessoas"><br>
+            
+            <button id="button">calcule</button>
+            
+        </div>
+    </div>
+<dialog id="model1"> 
+    <label>Este pagamento tera desconto?</label><br>
+    <label>apenas para contas pagas em pix,debito ou dinheiro.</label><br>
+    <button id="btSim">sim</button>
+    <button id="btNao">Não</button>
+</dialog>
+
+<dialog id="model2"> 
+    <p>Valor da conta:</p>
+    <label id="v1"></label><br>
+    <label id="v2"></label><br>
+    <label id="v3"></label><br>
+   <button id="btConcluir">CONCLUIR</button>
+</dialog>
+
+    <script src="./assents/js/index.js"></script>
+</body>
+
+</html>

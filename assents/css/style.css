@@ -1,0 +1,59 @@
+.img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+#imagem{
+    width: 381px;
+    height: 353px;
+
+}
+
+.entrada{
+    width: 200px;
+    height:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+#entrada{
+    width: 207px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-radius: 6px;
+    
+}
+
+#button{
+    
+    width: 207px;
+    height:23px;
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: rgb(106, 106, 231);
+    border-width: 1px;
+    border-radius: 6px;
+}
+.textfild{
+ 
+
+}
+
+#btConcluir{
+margin-top: 30px;
+margin-left: 50px;
+}
+
+#btSim{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#btNao{
+    margin-left: 10px;
+}
